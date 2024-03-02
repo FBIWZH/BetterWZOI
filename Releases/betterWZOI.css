@@ -1,0 +1,42 @@
+/* ==UserStyle==
+@name           wzoi.cc - 2024/2/25 21:00:31
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         FBIWZH
+==/UserStyle== */
+
+@-moz-document domain("wzoi.cc") {
+    
+    @font-face {
+        font-family: 'SourceHanSC';
+        src: url('https://mirrors.tuna.tsinghua.edu.cn/adobe-fonts/source-han-sans/Variable/WOFF2/TTF/SourceHanSansSC-VF.ttf.woff2');
+    }
+    
+    
+    html,body{
+        background-color:#dde1e4;
+    }
+    
+    html,body{
+        font-family:'SourceHanSC' !important;
+    }
+    
+    .navbar.fixed-left {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0.9%;
+        text-align: center;
+        margin-bottom: 0;
+        list-style: none;
+        box-shadow: 4px 5px 15px rgba(54, 54, 116, .39),2px 5px 8px rgba(111, 119, 127, .22)!important;
+        background:#1a59a80d 
+            linear-gradient(30deg,#7795f8 15%,#6772e5 70%,#555abf 94%);
+        
+    }
+    
+    .navbar-brand {
+        color:#fff0;
+        font-size: 0rem;
+    }
+}
